@@ -7,11 +7,7 @@ from wandb.integration.sb3 import WandbCallback
 
 #мы заменили float и np.array
 class GoLeftEnv(gym.Env):
-  """
-  Custom Environment that follows gym interface.
-  This is a simple env where the agent must learn to go always left.
-  """
-  # Because of google colab, we cannot implement the GUI ('human' render mode)
+
   metadata = {'render.modes': ['console']}
   # Define constants for clearer code
   FIRST = 0
