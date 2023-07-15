@@ -315,7 +315,7 @@ env = make_vec_env(GoLeftEnv, n_envs=1, env_kwargs=dict(grid_size=10))
 
 config = {
     "policy": 'MlpPolicy',
-    "total_timesteps": 100000
+    "total_timesteps": 50000
 }
 
 wandb.init(

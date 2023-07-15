@@ -1,0 +1,47 @@
+{
+    "os": "Linux-5.15.0-1041-azure-x86_64-with-glibc2.31",
+    "python": "3.11.4",
+    "heartbeatAt": "2023-07-15T16:18:17.302930",
+    "startedAt": "2023-07-15T16:18:16.831213",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/workspaces/morerl/firstur.py",
+    "codePath": "firstur.py",
+    "git": {
+        "remote": "https://github.com/somerl/morerl",
+        "commit": "f2d8b506170143bf5c4ca089241ad5b1070ceeb0"
+    },
+    "email": "134976843+somerl@users.noreply.github.com",
+    "root": "/workspaces/morerl",
+    "host": "codespaces-ded23d",
+    "username": "vscode",
+    "executable": "/usr/local/bin/python",
+    "cpu_count": 1,
+    "cpu_count_logical": 2,
+    "cpu_freq": {
+        "current": 2593.907,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2593.907,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2593.907,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 31.32598876953125,
+        "used": 20.97811508178711
+    },
+    "memory": {
+        "total": 3.8222198486328125
+    }
+}
