@@ -1,0 +1,47 @@
+diff --git a/firstur.py b/firstur.py
+index d80cab6..fb86001 100644
+--- a/firstur.py
++++ b/firstur.py
+@@ -311,7 +311,7 @@ env = make_vec_env(GoLeftEnv, n_envs=1, env_kwargs=dict(grid_size=10))
+ 
+ config = {
+     "policy": 'MlpPolicy',
+-    "total_timesteps": 50000
++    "total_timesteps": 3000000
+ }
+ 
+ wandb.init(
+@@ -337,3 +337,6 @@ wandb.finish()
+ 
+ 
+ 
++
++
++
+diff --git a/wandb/debug-internal.log b/wandb/debug-internal.log
+index f5b4c6e..074559d 120000
+--- a/wandb/debug-internal.log
++++ b/wandb/debug-internal.log
+@@ -1 +1 @@
+-run-20230715_161816-p3md6utx/logs/debug-internal.log
+\ No newline at end of file
++run-20230715_162724-14ds82bi/logs/debug-internal.log
+\ No newline at end of file
+diff --git a/wandb/debug.log b/wandb/debug.log
+index 9b41ed9..85f9750 120000
+--- a/wandb/debug.log
++++ b/wandb/debug.log
+@@ -1 +1 @@
+-run-20230715_161816-p3md6utx/logs/debug.log
+\ No newline at end of file
++run-20230715_162724-14ds82bi/logs/debug.log
+\ No newline at end of file
+diff --git a/wandb/latest-run b/wandb/latest-run
+index 8ae9861..43f894b 120000
+--- a/wandb/latest-run
++++ b/wandb/latest-run
+@@ -1 +1 @@
+-run-20230715_161816-p3md6utx
+\ No newline at end of file
++run-20230715_162724-14ds82bi
+\ No newline at end of file

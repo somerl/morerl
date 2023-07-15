@@ -1,0 +1,34 @@
+2023-07-15 16:27:24,539 INFO    MainThread:22078 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-15 16:27:24,539 INFO    MainThread:22078 [wandb_setup.py:_flush():76] Configure stats pid to 22078
+2023-07-15 16:27:24,539 INFO    MainThread:22078 [wandb_setup.py:_flush():76] Loading settings from /home/vscode/.config/wandb/settings
+2023-07-15 16:27:24,539 INFO    MainThread:22078 [wandb_setup.py:_flush():76] Loading settings from /workspaces/morerl/wandb/settings
+2023-07-15 16:27:24,539 INFO    MainThread:22078 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-15 16:27:24,539 INFO    MainThread:22078 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-15 16:27:24,539 INFO    MainThread:22078 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'firstur.py', 'program': '/workspaces/morerl/firstur.py'}
+2023-07-15 16:27:24,539 INFO    MainThread:22078 [wandb_init.py:_log_setup():507] Logging user logs to /workspaces/morerl/wandb/run-20230715_162724-14ds82bi/logs/debug.log
+2023-07-15 16:27:24,540 INFO    MainThread:22078 [wandb_init.py:_log_setup():508] Logging internal logs to /workspaces/morerl/wandb/run-20230715_162724-14ds82bi/logs/debug-internal.log
+2023-07-15 16:27:24,540 INFO    MainThread:22078 [wandb_init.py:init():547] calling init triggers
+2023-07-15 16:27:24,540 INFO    MainThread:22078 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'policy': 'MlpPolicy', 'total_timesteps': 3000000}
+2023-07-15 16:27:24,540 INFO    MainThread:22078 [wandb_init.py:init():596] starting backend
+2023-07-15 16:27:24,540 INFO    MainThread:22078 [wandb_init.py:init():600] setting up manager
+2023-07-15 16:27:24,542 INFO    MainThread:22078 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-07-15 16:27:24,544 INFO    MainThread:22078 [wandb_init.py:init():606] backend started and connected
+2023-07-15 16:27:24,547 INFO    MainThread:22078 [wandb_init.py:init():705] updated telemetry
+2023-07-15 16:27:24,552 INFO    MainThread:22078 [wandb_init.py:init():738] communicating run to backend with 60.0 second timeout
+2023-07-15 16:27:24,862 INFO    MainThread:22078 [wandb_run.py:_on_init():2173] communicating current version
+2023-07-15 16:27:24,903 INFO    MainThread:22078 [wandb_run.py:_on_init():2182] got version response 
+2023-07-15 16:27:24,903 INFO    MainThread:22078 [wandb_init.py:init():789] starting run threads in backend
+2023-07-15 16:27:24,955 INFO    MainThread:22078 [wandb_run.py:_console_start():2152] atexit reg
+2023-07-15 16:27:24,955 INFO    MainThread:22078 [wandb_run.py:_redirect():2007] redirect: 3
+2023-07-15 16:27:24,955 INFO    MainThread:22078 [wandb_run.py:_redirect():2072] Wrapping output streams.
+2023-07-15 16:27:24,956 INFO    MainThread:22078 [wandb_run.py:_redirect():2097] Redirects installed.
+2023-07-15 16:27:24,956 INFO    MainThread:22078 [wandb_init.py:init():830] run started, returning control to user process
+2023-07-15 16:27:24,967 INFO    MainThread:22078 [wandb_run.py:_tensorboard_callback():1427] tensorboard callback: runs/pponew/PPO_3, True
+2023-07-15 16:27:24,969 INFO    MainThread:22078 [wandb_watch.py:watch():51] Watching
+2023-07-15 16:27:24,977 INFO    MainThread:22078 [wandb_run.py:_config_callback():1281] config_cb None None {'algo': 'PPO', 'policy_class': "<class 'stable_baselines3.common.policies.ActorCriticPolicy'>", 'device': 'cpu', 'verbose': 1, 'policy_kwargs': '{}', 'num_timesteps': 0, '_total_timesteps': 3000000, '_num_timesteps_at_start': 0, 'seed': 'None', 'action_noise': 'None', 'start_time': 1689438444966196600, 'learning_rate': 0.0003, 'tensorboard_log': 'runs/pponew', '_last_obs': '[[[ 0  0  7  7]\n  [ 1  0  0  0]\n  [ 2  0  0  0]\n  [ 3  0  0  0]\n  [ 4  1  0  0]\n  [ 5  0  0  0]\n  [ 6  0  0  0]\n  [ 7  0  0  0]\n  [ 8  1  0  0]\n  [ 9  0  0  0]\n  [10  0  0  0]\n  [11  0  0  0]\n  [12  0  0  0]\n  [13  0  0  0]\n  [14  1  0  0]\n  [15  0  0  0]\n  [ 0  0  0  0]]]', '_last_episode_starts': '[ True]', '_last_original_obs': 'None', '_episode_num': 0, 'use_sde': 'False', 'sde_sample_freq': -1, '_current_progress_remaining': 1.0, '_stats_window_size': 100, 'ep_info_buffer': 'deque([], maxlen=100)', 'ep_success_buffer': 'deque([], maxlen=100)', '_n_updates': 0, '_custom_logger': 'False', 'env': '<stable_baselines3.common.vec_env.dummy_vec_env.DummyVecEnv object at 0x7f0cd731d7d0>', '_vec_normalize_env': 'None', 'observation_space': 'Box(-100, 100, (17, 4), int8)', 'action_space': 'Discrete(7)', 'n_envs': 1, 'n_steps': 2048, 'gamma': 0.99, 'gae_lambda': 0.95, 'ent_coef': 0.0, 'vf_coef': 0.5, 'max_grad_norm': 0.5, 'batch_size': 64, 'n_epochs': 10, 'clip_range': '<function constant_fn.<locals>.func at 0x7f0d720d27a0>', 'clip_range_vf': 'None', 'normalize_advantage': 'True', 'target_kl': 'None', 'lr_schedule': '<function constant_fn.<locals>.func at 0x7f0d720d25c0>', 'rollout_buffer': '<stable_baselines3.common.buffers.RolloutBuffer object at 0x7f0cd7819110>', '_logger': '<stable_baselines3.common.logger.Logger object at 0x7f0cd726dd10>'}
+2023-07-15 17:30:25,854 INFO    MainThread:22078 [sb3.py:save_model():153] Saving model checkpoint to models/1234/model.zip
+2023-07-15 17:30:25,854 INFO    MainThread:22078 [wandb_run.py:_finish():1887] finishing run sergey3784/urforall/14ds82bi
+2023-07-15 17:30:25,854 INFO    MainThread:22078 [wandb_run.py:_atexit_cleanup():2121] got exitcode: 0
+2023-07-15 17:30:25,855 INFO    MainThread:22078 [wandb_run.py:_restore():2104] restore
+2023-07-15 17:30:25,855 INFO    MainThread:22078 [wandb_run.py:_restore():2110] restore done
